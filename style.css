@@ -1,0 +1,77 @@
+@import url(assets/fonts/Oswald\Roboto);
+
+:root {
+  font-size: 62.5%;
+}
+
+h1,
+h2 {
+  background-color: rgba(0, 20, 200, 0.2);
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 10px;
+  text-align: center;
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-shadow: 2px 2px 3px red;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 64px;
+}
+
+p::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f810";
+  font-weight: 900;
+  color: lightsalmon;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  text-transform: uppercase;
+}
+
+span.italic {
+  font-style: italic;
+}
+
+/* p {
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  line-height: 1.6;
+  text-indent: 30px;
+  text-transform: capitalize;
+} */
+
+p.rem {
+  font-size: 1.6rem;
+}
+
+p.px {
+  font-size: 16px;
+}
+
+p.fantasy {
+  font-family: fantasy;
+}
+
+p.monospace {
+  font-family: monospace;
+}
+
+p.cursive {
+  font-family: cursive;
+}
+
+.fas.fa-ice-cream {
+  color: pink;
+}
